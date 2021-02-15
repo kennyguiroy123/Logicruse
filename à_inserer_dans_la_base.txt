@@ -1,0 +1,10 @@
+INSERT INTO `type_evenement` (`type_evenement_id`, `type_evenement_lib`) VALUES
+(1, 'Musique'),
+(2, 'Culturel et touristique'),
+(3, 'Film');
+
+INSERT INTO `evenement` (`evenement_id`, `evenement_lib`, `evenement_descri`, `type_evenement_id`) VALUES
+(1, 'Concert de Muse', 'Groupe de rock connu et populaire', 1),
+(2, 'Le Lac des Cygnes', 'Une oeuvre de Tchaïcovsky interprété par le Ballet et l’Orchestre de l’Opéra National de Russie', 2),
+(3, 'Cirque Arlette Gruss', 'L\'un des plus prestigieux cirque vous propose un expérience inoubliable pour petits et grands', 2),
+(4, 'Logan', 'Un film réalisé par James Mangold', 3);

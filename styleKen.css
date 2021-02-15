@@ -1,0 +1,256 @@
+body {
+    font-family: 'Lucida Sans Unicode', sans-serif, serif;
+}
+
+    .backgroundacceuil{
+    background-image: url('images/Sans.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    text-align:center;
+    }
+    .backgroundcompte{
+    background-image: url('images/login.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    }
+    .backgroundEvenement{
+        background-image:url('images/Evenements.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: relative;
+    }
+    .bannerVoyages{
+        background-size: ;
+        background-repeat: no-repeat;
+        background-attachment: relative;
+        width: 100%;
+        height: 55%;
+    }
+/*header*/
+    .btn-nav { 
+        background-color: #fff;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+    }
+    .btn-nav:hover {
+        color: #e92d00;
+        cursor: pointer;
+        -webkit-transition: color 0.3s;
+        transition: color 0.3s;
+    }
+    .btn-group-justified {
+        margin-left: 0;
+        margin-right: 0;
+        background-color: white;
+        position:;
+    }
+    .container {
+    	width: 102%;
+        float: left;
+        position: fixed;
+        z-index: 10;
+        background-color: white;
+        margin-left: -20px;
+    }
+    .logo {
+        float: left;
+        background-color: white;
+    }
+    .logo img {
+        float: left;
+        width: 45%;
+    }
+    .container li {
+        float: left;
+    }
+
+
+    .Login {
+        border: 2px solid black;
+        width: 20%;
+        border-radius: 10px;
+        padding: 50px;
+        background-color: rgba(255,255,255,0.7);
+        margin-left: 600px;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .Formulaire {
+        border: 2px solid rgba(94, 92, 97,0.8);
+        width: 68%;
+        border-radius: 10px;
+        margin-top:50px;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-left: 250px;
+        height: 400px;
+        margin-top: 5%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .dateform{
+        margin-left:10px;
+        color: black;
+    }
+    .enteteformulaire{
+        text-align: center;
+    }
+    .positionContact{
+        margin-top: -20px;
+    }
+    .positionLieu{
+        margin-top: -20px;
+    }
+    .btn_position{
+        text-align: center;
+    }
+    .carousel {
+   
+        overflow: hidden;
+    }
+    .carousel .item {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    }
+    .carousel .active.left, .carousel .active.right {
+    left:0;
+    opacity:0;
+    z-index:2;
+    }
+    .carousel .next, .carousel .prev {
+    left:0;
+    opacity:1;
+    z-index:1;
+    }
+
+    .a_propos {
+    	background-color: white;
+    	width: 100%;
+    	margin: auto;
+    	margin-top: -7%;
+    	padding: 1em 1em 1em 1em;
+    }
+    .a_propos p {
+    	width: 70%;
+    }
+    .titre {
+    	text-align:center;
+    }
+    .image_gde_croisiere {
+    	width: 60%;
+    	margin-top: -10%;
+    	margin-left: 40%;
+    }
+    .texte {
+    	float: left;
+    	margin-top: 3%;
+    }
+    .validation {
+        float: right;
+        margin-right: 2em;
+        margin-top: 10%;
+    }
+    .boutton_service {
+        float: right;
+        margin-right: 20%;
+    }
+
+/*style évenement*/
+    .lib-panel {
+        margin-bottom: 20Px;
+    }
+    .lib-panel img {
+        width: 100%;
+        background-color: transparent;
+    }
+    
+    .lib-panel .row,
+    .lib-panel .col-md-6 {
+        padding: 0;
+        background-color: #FFFFFF;
+    }
+    
+    
+    .lib-panel .lib-row {
+        padding: 0 20px 0 20px;
+    }
+    
+    .lib-panel .lib-row.lib-header {
+        background-color: #FFFFFF;
+        font-size: 20px;
+        padding: 10px 20px 0 20px;
+    }
+    
+    .lib-panel .lib-row.lib-header .lib-header-seperator {
+        height: 2px;
+        width: 26px;
+        background-color: #d9d9d9;
+        margin: 7px 0 7px 0;
+    }
+    
+    .lib-panel .lib-row.lib-desc {
+        position: relative;
+        height: 100%;
+        display: block;
+        font-size: 13px;
+    }
+    .lib-panel .lib-row.lib-desc a{
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        left: 20px;
+    }
+    
+    .row-margin-bottom {
+        margin-bottom: 20px;
+    }
+    
+    .box-shadow {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.10);
+    }
+    
+    .no-padding {
+        padding: 0;
+    }
+
+    .voy
+    {
+        width: 100%;
+        height: 50%;
+        overflow-y: hidden;
+    }
+
+    .img_voy 
+    {
+        width: 100%;
+    }
+
+    .textevoyage
+    {
+        position:absolute;
+        right: 1800px;
+        top: 3004px;
+    }
+    .positionCiv{
+        margin-left: 50px;
+    }
+    .positionVoyages{
+        margin-top: -11%;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .BarreRecherche{
+        display: inline-block;
+        width: 100%;    
+        margin-top: 4%;
+    }
+    .btn-danger{
+        margin-top: 25px;
+    }
